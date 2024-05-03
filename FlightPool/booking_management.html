@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница управления бронирования</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<!--Шапка сайта-->
+<header>
+    <div class="wrapper">
+        <div class="content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#promos">Акции</a></li>
+                    <li><a href="index.html#serch">Поиск</a></li>
+                    <li><a href="register.html">Регистрация на рейс</a></li>
+                    <li><a href="profile.html">Личный кабинет</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>  
+
+<!--Блок управления бронированием-->
+<section class="booking">
+    <div class="wrapper">
+        <div class="content">
+            <h2>Управляйте своими полетами</h2>
+            <h3>Ваше бронирование № 12345 стоимостью 9000 р</h3>
+            <div class="perelet">
+                <h3>Перелет Москва-Казань</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Воздушное судно</th>
+                        <th>Название города вылета</th>
+                        <th>Название аэропорта вылета</th>
+                        <th>Дата и время вылета</th>
+                        <th>Название города назначения</th>
+                        <th>Название аэропорта назначения</th>
+                        <th>Время прибытия</th>
+                        <th>Время в пути</th>
+                        <th>Вероятность вылета</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SU 1192</td>
+                        <td>Airbus A321</td>
+                        <td>Москва</td>
+                        <td>Шереметьево</td>
+                        <td>8/10/2020
+                            15-00</td>
+                        <td>Казань</td>
+                        <td>Казань</td>
+                        <td>16-30</td>
+                        <td>2 часа</td>
+                        <td>Тут должна быть картинка</td>
+                    </tr>
+                </tbody>
+                </table>
+                <h3>Пассажиры рейса</h3>
+                <div class="data">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Имя</th>
+                                <th>Фамилия</th>
+                                <th>Дата рождения</th>
+                                <th>Номер документа</th>
+                                <th>Место в салоне туда</th>
+                                <th>Место в салоне обратно</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Иван</td>
+                                <td>Иванов</td>
+                                <td>25.06.1990</td>
+                                <td>8710 222555</td>
+                                <td>
+                                    <p>1</p> 
+                                    <button onclick="parent.location='seat.html'">Выбрать место</button>
+                                </td>
+                                <td>
+                                    <p>2</p> 
+                                    <button onclick="parent.location='seat.html'">Выбрать место</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3>Перелет Казань-Москва</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Воздушное судно</th>
+                        <th>Название города вылета</th>
+                        <th>Название аэропорта вылета</th>
+                        <th>Дата и время вылета</th>
+                        <th>Название города назначения</th>
+                        <th>Название аэропорта назначения</th>
+                        <th>Время прибытия</th>
+                        <th>Время в пути</th>
+                        <th>Вероятность вылета</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SU 1192</td>
+                        <td>Airbus A321</td>
+                        <td>Москва</td>
+                        <td>Шереметьево</td>
+                        <td>8/10/2020
+                            15-00</td>
+                        <td>Казань</td>
+                        <td>Казань</td>
+                        <td>16-30</td>
+                        <td>2 часа</td>
+                        <td>Тут должна быть картинка</td>
+                    </tr>
+                </tbody>
+                </table>
+                <h3>Пассажиры рейса</h3>
+                <div class="data">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Имя</th>
+                                <th>Фамилия</th>
+                                <th>Дата рождения</th>
+                                <th>Номер документа</th>
+                                <th>Место в салоне туда</th>
+                                <th>Место в салоне обратно</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Иван</td>
+                                <td>Иванов</td>
+                                <td>25.06.1990</td>
+                                <td>8710 222555</td>
+                                <td>
+                                    <p>1</p> 
+                                    <button onclick="parent.location='seat.html'">Выбрать место</button>
+                                </td>
+                                <td>
+                                    <p>2</p> 
+                                    <button onclick="parent.location='seat.html'">Выбрать место</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Подвал-->
+<footer>
+    <div class="wrapper">
+        <div class="content">
+            <h1>8 (800) 100-10-10</h1>
+            <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="login.html">Войти в личный кабинет  </a></li>
+                    <li><a href="register.html">Зарегистрироваться</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="index.html#sub">Новости</a></li>
+                    <li><a href="#">Возврат</a></li>
+                    <li><a href="index.html#reviews">Обратная связь</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

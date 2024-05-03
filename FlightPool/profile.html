@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница личного кабинета</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<!--Шапка сайта-->
+<header>
+    <div class="wrapper">
+        <div class="content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#promos">Акции</a></li>
+                    <li><a href="index.html#serch">Поиск</a></li>
+                    <li><a href="register.html">Регистрация на рейс</a></li>
+                    <li><a href="profile.html">Личный кабинет</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>  
+
+<!--Страница личного кабинета-->
+<section class="profile">
+    <div class="wrapper">
+        <div class="content">
+            <h2>Уважаемый Иван Иванов!</h2>
+            <h3>Количество совершённых вами полётов - 11. <br>
+            Спасибо, что остаётесь с нами!</h3>
+            <h3>Предстоящие бронирования</h3>
+            <div class="bilet">
+                <h3>13/02/24</h3>
+                <h3>Рейс 112к Москва (Внуково) - Омск</h3>
+                <p>Время вылета: 15:20</p>
+                <p>Время прилета: 17:40</p>
+                <button onclick="parent.location='booking_management.html'">Подробнее</button>
+            </div>
+            <div class="bilet">
+                <h3>16/03/24</h3>
+                <h3>Рейс 34к Москва (Домодедово) - Дубай</h3>
+                <p>Время вылета: 15:20</p>
+                <p>Время прилета: 17:40</p>
+                <button onclick="parent.location='booking_management.html'">Подробнее</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--Подвал-->
+<footer>
+    <div class="wrapper">
+        <div class="content">
+            <h1>8 (800) 100-10-10</h1>
+            <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="login.html">Войти в личный кабинет  </a></li>
+                    <li><a href="register.html">Зарегистрироваться</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="index.html#sub">Новости</a></li>
+                    <li><a href="#">Возврат</a></li>
+                    <li><a href="index.html#reviews">Обратная связь</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

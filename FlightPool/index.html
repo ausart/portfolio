@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<!--Шапка сайта-->
+<header>
+    <div class="wrapper">
+        <div class="content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#promos">Акции</a></li>
+                    <li><a href="index.html#serch">Поиск</a></li>
+                    <li><a href="register.html">Регистрация на рейс</a></li>
+                    <li><a href="profile.html">Личный кабинет</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>  
+
+<!--Баннер-->
+<section class="banner">
+
+</section>
+
+<!--Блок инфорграфика-->
+<section class="info">
+    <div class="wrapper">
+        <div class="content">
+            <h2>Экономьте вместе с нами</h2>
+            <h3>Выберите возможные парметры и следите за изменениями</h3>
+            <form>
+                <div class="inputs">
+                <input type="text" placeholder="Когда">
+                <input type="text" placeholder="Сколько">
+            </div>
+                <button>Поиск</button>
+            </form>
+        </div>
+        <img src="img/linejnyj_grafik.png" alt="">
+    </div>
+</section>
+
+<!--Блок доверия компании-->
+<section id="reviews">
+    <div class="wrapper">
+        <div class="content">
+            <h2>Наши путешественники</h2>
+            <div class="review" >
+                <h3>Просто хорошая и удобная авиакомпания</h3>
+                <p class="comment">Всё было очень удобно,гибкий выбор услуг при покупки билетов. Оба раза при покупке билетов попадались удобные места.</p>
+                <p class="autor">Иван Иванов</p>
+            </div>
+            <div class="review">
+                <h3>Хорошо</h3>
+                <p class="comment">Летела на новом albrus 320 neo. Новый, красивый самолёт. Обслуживание хорошее. Взлёт и посадка прошли мягко.</p>
+                <p class="autor">Иванна Иванова</p>
+            </div>
+            <div class="review">
+                <h3>Хорошая авиакомпания.</h3>
+                <p class="comment">Вылетал из Москвы 8 января, после праздников. Приложение S7 уведомляло о начале регистрации и вылете, прилетел в Ростов раньше графика.</p>
+                <p class="autor">Семён Семёнов</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Блок поиска-->
+<section id="search">
+    <div class="wrapper">
+        <div class="content">
+            <h2>Выберите удобный для вас рейс!</h2>
+            <form action="search.html">
+                <div class="inputs2"> 
+                <input type="text" placeholder="Откуда">
+                <input type="text" placeholder="Куда">
+                <input type="text" placeholder="Вылет">
+                <input type="text" placeholder="Прилёт">
+                <input type="text" placeholder="Количество">
+            </div>
+               <button onclick="parent.location='search.html'">Поиск</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--Блок акции-->
+<section id="promos">
+    <div class="wrapper">
+        <div class="content">
+            <h2>Наши акции</h2>
+            <div class="blockpromo"> 
+            <div class="promo">
+                <img src="img/promotion1.jpg" alt="">
+                <h3>Акция 1</h3>
+                <p>Описание Акции 1. Описание Акции 1. Описание Акции 1.</p>
+                <button>Подробнее</button>
+            </div>
+            <div class="promo">
+                <img src="img/promotion2.jpg" alt="">
+                <h3>Акция 2.</h3>
+                <p>Описание Акции 2. Описание Акции 2. Описание Акции 2.</p>
+                <button>Подробнее</button>
+            </div>
+            <div class="promo">
+                <img src="img/promotion3.jpg" alt="">
+                <h3>Акция 3.</h3>
+                <p>Описание Акции 3. Описание Акции 3. Описание Акции 3.</p>
+                <button>Подробнее</button>
+            </div>
+            <div class="promo">
+                <img src="img/promotion4.jpg" alt="">
+                <h3>Акция 4.</h3>
+                <p>Описание Акции 4. Описание Акции 4. Описание Акции 4.</p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!--Блок подписка-->
+<section id="sub">
+    <div class="wrapper">
+        <div class="content">
+            <h2>Будь в курсе</h2>
+            <input type="text" placeholder="Введите свой email">
+            <button>Подписаться</button>
+        </div>
+    </div>
+</section>
+
+<!--Подвал-->
+<footer>
+    <div class="wrapper">
+        <div class="content">
+            <h1>8 (800) 100-10-10</h1>
+            <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="login.html">Войти в личный кабинет  </a></li>
+                    <li><a href="register.html">Зарегистрироваться</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="index.html#sub">Новости</a></li>
+                    <li><a href="#">Возврат</a></li>
+                    <li><a href="index.html#reviews">Обратная связь</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
